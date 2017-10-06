@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Non-project-specific build files:
 build.xml
 local.properties
@@ -12,3 +13,6 @@ gen
 out
 # Gradle builds
 /build
+=======
+.DS_Store
+>>>>>>> e2b326345f47180ade2478dbcaaaf3ffcfe0bdf7
