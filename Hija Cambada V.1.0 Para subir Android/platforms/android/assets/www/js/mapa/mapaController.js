@@ -1,0 +1,1 @@
+angular.module("starter.mapaController",[]).controller("MapaCtrl",["$scope","$ionicHistory","$state",function(o,r,t){}]);
