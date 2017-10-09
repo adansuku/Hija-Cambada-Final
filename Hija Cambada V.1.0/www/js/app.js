@@ -1276,5 +1276,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
     }
   });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/principal');
+  $urlRouterProvider.otherwise('/app/paloBlanco');
 });
