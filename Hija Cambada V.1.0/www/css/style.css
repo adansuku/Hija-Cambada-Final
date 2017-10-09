@@ -144,6 +144,22 @@ img {
 		left: 30px;
 }
 
+
+/*boton camara en la pantalla de plantas*/
+.camaraContenedor{
+	width: 80px;
+	height: s80px;
+	position: absolute;
+	right: 15px;
+	top: 15px;
+	}
+.camaraIcono{
+}
+
+.fotosPlantas{
+	width: 100%;
+}
+
 /* Boton atras en la pantalla audio (aves) */
 .botonAudio{
 	position: absolute;
@@ -193,8 +209,6 @@ img {
     margin-bottom: 10px;
     left: 6px;
 }
-
-
 
 /* PORTADA */
 .fondoPortada {

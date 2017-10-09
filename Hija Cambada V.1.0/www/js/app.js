@@ -8,7 +8,7 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
 
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
-    
+
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
     // for form inputs)
     if (window.cordova && window.cordova.plugins.Keyboard) {
@@ -232,6 +232,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                      // Pantalla planta follao-foto
+                      .state('app.follaoFoto', {
+                        url: '/follaoFoto',
+                        views: {
+                          'menuContent': {
+                            templateUrl: 'templates/plantas/follaoFoto.html',
+                            controller: 'PlantasCtrl'
+                          }
+                        }
+                      })
   // Pantalla planta palo blanco
   .state('app.paloBlanco', {
     url: '/paloBlanco',
@@ -242,6 +252,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                        // Pantalla planta paloBlanco-foto
+                        .state('app.paloBlancoFoto', {
+                          url: '/paloBlancoFoto',
+                          views: {
+                            'menuContent': {
+                              templateUrl: 'templates/plantas/paloBlancoFoto.html',
+                              controller: 'PlantasCtrl'
+                            }
+                          }
+                        })
   // Pantalla planta sauco
   .state('app.sauco', {
     url: '/sauco',
@@ -252,6 +272,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                      // Pantalla planta sauco-foto
+                      .state('app.saucoFoto', {
+                        url: '/saucoFoto',
+                        views: {
+                          'menuContent': {
+                            templateUrl: 'templates/plantas/saucoFoto.html',
+                            controller: 'PlantasCtrl'
+                          }
+                        }
+                      })
   // Pantalla planta naranjero
   .state('app.naranjero', {
     url: '/naranjero',
@@ -262,6 +292,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta naranjero-foto
+                    .state('app.naranjeroFoto', {
+                      url: '/naranjeroFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/naranjeroFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
   // Pantalla planta faya
   .state('app.faya', {
     url: '/faya',
@@ -272,6 +312,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                // Pantalla planta faya-foto
+                .state('app.fayaFoto', {
+                  url: '/fayaFoto',
+                  views: {
+                    'menuContent': {
+                      templateUrl: 'templates/plantas/fayaFoto.html',
+                      controller: 'PlantasCtrl'
+                    }
+                  }
+                })
   // Pantalla planta brezo
   .state('app.brezo', {
     url: '/brezo',
@@ -282,6 +332,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta brezo-foto
+                    .state('app.brezoFoto', {
+                      url: '/brezoFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/brezoFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
   // Pantalla planta tejo
   .state('app.tejo', {
     url: '/tejo',
@@ -292,6 +352,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta tejo-foto
+                    .state('app.tejoFoto', {
+                      url: '/tejoFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/tejoFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
+
   // Pantalla planta barbuzano
   .state('app.barbuzano', {
     url: '/barbuzano',
@@ -302,6 +373,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                  // Pantalla planta barbuzano-foto
+                  .state('app.barbuzanoFoto', {
+                    url: '/barbuzanoFoto',
+                    views: {
+                      'menuContent': {
+                        templateUrl: 'templates/plantas/barbuzanoFoto.html',
+                        controller: 'PlantasCtrl'
+                      }
+                    }
+                  })
   // Pantalla planta sanguino
   .state('app.sanguino', {
     url: '/sanguino',
@@ -312,6 +393,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta sanguino-foto
+                    .state('app.sanguinoFoto', {
+                      url: '/sanguinoFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/sanguinoFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
   // Pantalla planta mocan
   .state('app.mocan', {
     url: '/mocan',
@@ -322,6 +413,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+              // Pantalla planta mocan-foto
+              .state('app.mocanFoto', {
+                url: '/mocanFoto',
+                views: {
+                  'menuContent': {
+                    templateUrl: 'templates/plantas/mocanFoto.html',
+                    controller: 'PlantasCtrl'
+                  }
+                }
+              })
+
   // Pantalla planta hija
   .state('app.hija', {
     url: '/hija',
@@ -332,6 +434,16 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta hija-foto
+                    .state('app.hijaFoto', {
+                      url: '/hijaFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/hijaFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
   // Pantalla planta madroño
   .state('app.madrono', {
     url: '/madrono',
@@ -342,6 +454,17 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+                    // Pantalla planta Madroño-foto
+                    .state('app.madronoFoto', {
+                      url: '/madronoFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/madronoFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
+
   // Pantalla planta til
   .state('app.til', {
     url: '/til',
@@ -352,6 +475,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                    // Pantalla planta til-foto
+                    .state('app.tilFoto', {
+                      url: '/tilFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/tilFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
+
   // Pantalla planta laurel
   .state('app.laurel', {
     url: '/laurel',
@@ -362,6 +497,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                        // Pantalla planta laurelfoto
+                        .state('app.laurelFoto', {
+                          url: '/laurelFoto',
+                          views: {
+                            'menuContent': {
+                              templateUrl: 'templates/plantas/laurelFoto.html',
+                              controller: 'PlantasCtrl'
+                            }
+                          }
+                        })
+
   // Pantalla planta viñatigo
   .state('app.vinatigo', {
     url: '/vinatigo',
@@ -372,6 +519,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                    // Pantalla planta vinatigo-foto
+                    .state('app.vinatigoFoto', {
+                      url: '/vinatigoFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/vinatigoFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
+
   // Pantalla planta delfino
   .state('app.delfino', {
     url: '/delfino',
@@ -382,6 +541,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                // Pantalla planta delfino-foto
+                .state('app.delfinoFoto', {
+                  url: '/delfinoFoto',
+                  views: {
+                    'menuContent': {
+                      templateUrl: 'templates/plantas/delfinoFoto.html',
+                      controller: 'PlantasCtrl'
+                    }
+                  }
+                })
+
   // Pantalla planta aderno
   .state('app.aderno', {
     url: '/aderno',
@@ -392,6 +563,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                            // Pantalla planta aderno-foto
+                            .state('app.adernoFoto', {
+                              url: '/adernoFoto',
+                              views: {
+                                'menuContent': {
+                                  templateUrl: 'templates/plantas/adernoFoto.html',
+                                  controller: 'PlantasCtrl'
+                                }
+                              }
+                            })
+
   // Pantalla planta marmolan
   .state('app.marmolan', {
     url: '/marmolan',
@@ -402,6 +585,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                    // Pantalla planta marmolan-foto
+                    .state('app.marmolanFoto', {
+                      url: '/marmolanFoto',
+                      views: {
+                        'menuContent': {
+                          templateUrl: 'templates/plantas/marmolanFoto.html',
+                          controller: 'PlantasCtrl'
+                        }
+                      }
+                    })
+
   // Pantalla planta acebino
   .state('app.acebino', {
     url: '/acebino',
@@ -412,6 +607,18 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
       }
     }
   })
+
+                  // Pantalla planta acebino-foto
+                  .state('app.acebinoFoto', {
+                    url: '/acebinoFoto',
+                    views: {
+                      'menuContent': {
+                        templateUrl: 'templates/plantas/acebinoFoto.html',
+                        controller: 'PlantasCtrl'
+                      }
+                    }
+                  })
+
   //***************** FIN PLANTAS *******************
 
   // Pantalla para probar array de plantas
@@ -1069,6 +1276,5 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
     }
   });
   // if none of the above states are matched, use this as the fallback
-  //$urlRouterProvider.otherwise('/app/playlists');
   $urlRouterProvider.otherwise('/app/principal');
 });
