@@ -4,7 +4,7 @@ angular.module('starter.avesController', [])
 .controller('AvesCtrl', function($scope, $ionicHistory, $state) {
 
   // Borramos el historial de navegacion para que el boton fisico no funcione y no sigan los sonidos sonando en caso de pulsacion.
-  $ionicHistory.clearHistory();
+  //$ionicHistory.clearHistory();
 
 // Creamos las variables con los sonidos de las aves
 var audioCuervo = new Audio('audio/sonidos-aves/cuervo.mp3');
