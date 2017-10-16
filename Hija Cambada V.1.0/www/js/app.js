@@ -22,7 +22,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
     }
 
   });
-})
+
+
+}) // Fin metodo .run
 
 
 .config(function($stateProvider, $urlRouterProvider) {

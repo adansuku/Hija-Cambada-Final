@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.ionicframework.hijacambada707845" version="1.2" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.ionicframework.hijacambada707845" version="1.4.3" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <feature name="Device">
         <param name="android-package" value="org.apache.cordova.device.Device" />
     </feature>
@@ -21,7 +21,7 @@
     </feature>
     <name>Aula Naturaleza</name>
     <description>Aplicacion aula naturaleza</description>
-    <author email="info@laislacreativa.com" href="http://laislacreativa.com">Isla Creativa</author>
+    <author email="info@cajacanarias.com" href="http://cajacanarias.com">Fundacion CajaCanarias</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-navigation href="http://ionic.local/*" />
