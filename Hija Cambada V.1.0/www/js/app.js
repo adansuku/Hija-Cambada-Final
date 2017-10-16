@@ -22,7 +22,22 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
     }
 
   });
-})
+
+  // Configuramos el boton fisico (atrás) del movil.
+  $ionicPlatform.registerBackButtonAction(function(e) {
+    // Desactivamos el boton atras del terminal en la pantalla de aves.
+    if($state.current.name=="app.principal"){
+      alert("ooole!");
+    }
+    else {
+      navigator.app.backHistory();
+    }
+      
+
+  }, 101); // Fin de configurar el boton fisico atras.
+
+
+}) // Fin metodo .run
 
 
 .config(function($stateProvider, $urlRouterProvider) {
