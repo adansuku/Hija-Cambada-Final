@@ -6,7 +6,7 @@
 // 'starter.controllers' is found in controllers.js
 angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasController', 'starter.avesController', 'starter.esquemaController', 'starter.mapaController', 'ui.router'])
 
-.run(function($ionicPlatform) {
+.run(function($ionicPlatform, $state) {
   $ionicPlatform.ready(function() {
 
     // Hide the accessory bar by default (remove this to show the accessory bar above the keyboard
@@ -26,8 +26,9 @@ angular.module('starter', ['ionic', 'starter.controllers', 'starter.plantasContr
   // Configuramos el boton fisico (atrás) del movil.
   $ionicPlatform.registerBackButtonAction(function(e) {
     // Desactivamos el boton atras del terminal en la pantalla de aves.
-    if($state.current.name=="app.principal"){
-      alert("ooole!");
+    if($state.current.name=="app.pajaroCuervo"){
+      //alert("Cuervo!!!!");
+      //AvesCtrl.$scope.stopSonido();
     }
     else {
       navigator.app.backHistory();

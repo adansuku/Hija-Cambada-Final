@@ -7,7 +7,7 @@ angular.module('starter.avesController', [])
   //$ionicHistory.clearHistory();
 
 // Creamos las variables con los sonidos de las aves
-var audioCuervo = new Audio('audio/sonidos-aves/cuervo.mp3');
+$scope.audioCuervo = new Audio('audio/sonidos-aves/cuervo.mp3');
 var audioGavilan = new Audio('audio/sonidos-aves/gavilan.mp3');
 var audioHerrerillo = new Audio('audio/sonidos-aves/herrerillo.mp3');
 var audioMirlo = new Audio('audio/sonidos-aves/mirlo.mp3');
@@ -24,7 +24,7 @@ var seOye = "no";
 
   // Funciones con los sonidos de las aves
   $scope.playCuervo = function() {
-    audioCuervo.play();
+    $scope.audioCuervo.play();
     seOye = "cuervo";
   };
 
@@ -78,7 +78,7 @@ var seOye = "no";
   $scope.stopSonido = function(){
     // Si suena el cuervo, lo paramos y modificamos la variable seOye
     if (seOye == "cuervo"){
-          audioCuervo.pause();
+          $scope.audioCuervo.pause();
           seOye = "no";
 
           // Volvemos atras.
