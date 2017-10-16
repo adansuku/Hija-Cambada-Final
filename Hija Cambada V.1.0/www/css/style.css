@@ -379,7 +379,7 @@ div.hrFull{
 /*Puntos del mapa*/
 .imagen-mapa{ /*Mapa background*/
 	width: 100%;
-	background-image: url('../../img/mapa/mapa.png');
+	background-image: url('./../img/mapa/mapa.png');
 	background-size: 100% 100%;
 	height: 100%;
 }
@@ -482,7 +482,7 @@ div.hrFull{
 		width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('../../img/practica/objetivoPractica.png');
+    background-image: url('./../img/practica/objetivoPractica.png');
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
@@ -494,7 +494,7 @@ div.hrFull{
 		width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('../../img/practica/practicaPortada.png');
+    background-image: url('./../img/practica/practicaPortada.png');
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
