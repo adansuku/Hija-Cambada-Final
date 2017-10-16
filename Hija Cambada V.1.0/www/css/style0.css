@@ -67,7 +67,7 @@ img {
 
 .fondo-titulos{
     background-size: cover;
-    height: 100%;
+    height: 100vh;
 		padding-top: 50%;
     background-repeat: no-repeat;
     background-image: url('./../img/pantallas/portadas/fondo-titulos.jpg');
@@ -213,7 +213,7 @@ img {
 /* PORTADA */
 .fondoPortada {
     background-size: cover;
-    height:100% ;
+    height:100vh ;
     background-repeat: no-repeat;
     background-image: url('./../img/pantallas/fondoPortada.jpg');
 		width: 100%;
@@ -228,7 +228,7 @@ video{
 
 .background-video{
 	background-color: black;
-	height: 100%;
+	height: 100vh;
 	text-align: center;
 }
 
@@ -246,7 +246,7 @@ video{
 	width: 30vw;
 	height: 30vw;
 	left: 35vw;
-	top: 65%;
+	top: 65vh;
 
 }
 
@@ -259,12 +259,12 @@ video{
 /* PANTALLAS */
 .divFull{
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 }
 .div50{
 	position: relative;
 	width: 100%;
-	height: 45%;
+	height: 45vh;
 }
 .div25{
 	position: relative;
@@ -305,7 +305,7 @@ div.hrFull{
 /* Pantalla donde se muestras los pajaros */
 .divAvesFull{
     width: 101%;
-    height: 100%;
+    height: 100vh;
     margin: 0 auto;
 }
 
@@ -321,7 +321,7 @@ div.hrFull{
 .divAves50 img
 {
 	width: 100%;
-	height: auto;
+	height: 24%;
 	margin-bottom: -10px;
 }
 
@@ -331,7 +331,7 @@ div.hrFull{
 
 .divImgAveFull{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .divImgAveFull img{
@@ -351,7 +351,7 @@ div.hrFull{
 /* Arboles */
 .divImgArbolFull{
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 .divImgArbolFull img{
@@ -364,6 +364,7 @@ div.hrFull{
 /*Esquema pantalla*/
 
 .EsquemaContenedor {
+	height: 32vh;
 	border-bottom: 2px solid white;
 }
 .EsquemaContenedor img{
@@ -379,9 +380,9 @@ div.hrFull{
 /*Puntos del mapa*/
 .imagen-mapa{ /*Mapa background*/
 	width: 100%;
-	background-image: url('../../img/mapa/mapa.png');
+	background-image: url('./../img/mapa/mapa.png');
 	background-size: 100% 100%;
-	height: 100%;
+	height: 100vh;
 }
 
 .imagen-mapa img{
@@ -480,9 +481,9 @@ div.hrFull{
 .fondoObjetivo {
     background-size: cover;
 		width: 100%;
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-image: url('../../img/practica/objetivoPractica.png');
+    background-image: url('./../img/practica/objetivoPractica.png');
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
@@ -492,9 +493,9 @@ div.hrFull{
 .fondoPractica{
     background-size: cover;
 		width: 100%;
-    height: 100%;
+    height: 100vh;
     background-repeat: no-repeat;
-    background-image: url('../../img/practica/practicaPortada.png');
+    background-image: url('./../img/practica/practicaPortada.png');
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
@@ -503,13 +504,15 @@ div.hrFull{
 
 
 .fondoMaterial{
-
-		position: absolute;
+    background-size: cover;
+		width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-image: url('./../img/practica/materialNecesario.png');
 		text-align: center;
-}
-
-.imagenMaterial{
-	width: 100%;
+		margin: 0 auto;
+		position: absolute;
+		top: 0px;
 }
 
 .iniciarPractica{
