@@ -1,4 +1,15 @@
 {
   "name": "hijaCambada",
-  "app_id": ""
+  "app_id": "ea78b7de",
+  "integrations": {
+    "gulp": {},
+    "cordova": {}
+  },
+  "type": "ionic1",
+  "watchPatterns": [
+    "scss/**/*",
+    "www/**/*",
+    "!www/lib/**/*",
+    "!www/**/*.map"
+  ]
 }
