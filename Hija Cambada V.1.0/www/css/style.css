@@ -383,7 +383,7 @@ div.hrFull{
 	width: 100%;
 	background-image: url('./../img/mapa/mapa.png');
 	background-size: 100% 100%;
-	height: 100vh;
+	height: 100%;
 }
 
 .imagen-mapa img{
