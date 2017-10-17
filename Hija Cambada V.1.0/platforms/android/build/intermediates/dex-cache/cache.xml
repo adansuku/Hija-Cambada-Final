@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<items version="2" />
+<items version="2" >
+
+    <item
+        jar="/Users/ulises/Documents/Proyectos/ionic/apps/hijaCambada/Repositorio Adan/Hija-Cambada-Final/Hija Cambada V.1.0/platforms/android/build/intermediates/exploded-aar/android/CordovaLib/unspecified/debug/jars/classes.jar"
+        jumboMode="false"
+        revision="24.0.2"
+        sha1="8eb810bd03ff584173981cf2e60d6a02699b0078">
+        <dex dex="/Users/ulises/Documents/Proyectos/ionic/apps/hijaCambada/Repositorio Adan/Hija-Cambada-Final/Hija Cambada V.1.0/platforms/android/build/intermediates/pre-dexed/debug/CordovaLib-unspecified-debug_358e8822b3c871a4b025cb9c074ee867e62f4bde.jar" />
+    </item>
+
+</items>
