@@ -214,7 +214,7 @@ img {
 /* PORTADA */
 .fondoPortada {
     background-size: cover;
-    height:100vh ;
+    height:100% ;
     background-repeat: no-repeat;
     background-image: url('./../img/pantallas/fondoPortada.jpg');
 		width: 100%;
@@ -229,7 +229,7 @@ video{
 
 .background-video{
 	background-color: black;
-	height: 100vh;
+	height: 100%;
 	text-align: center;
 }
 
@@ -247,7 +247,7 @@ video{
 	width: 30vw;
 	height: 30vw;
 	left: 35vw;
-	top: 65vh;
+	top: 65%;
 
 }
 
@@ -260,12 +260,12 @@ video{
 /* PANTALLAS */
 .divFull{
 	width: 100%;
-	height: 100vh;
+	height: 100%;
 }
 .div50{
 	position: relative;
 	width: 100%;
-	height: 45vh;
+	height: 45%;
 }
 .div25{
 	position: relative;
@@ -306,7 +306,7 @@ div.hrFull{
 /* Pantalla donde se muestras los pajaros */
 .divAvesFull{
     width: 101%;
-    height: 100vh;
+    height: 100%;
     margin: 0 auto;
 }
 
@@ -332,7 +332,7 @@ div.hrFull{
 
 .divImgAveFull{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .divImgAveFull img{
@@ -352,7 +352,7 @@ div.hrFull{
 /* Arboles */
 .divImgArbolFull{
     width: 100%;
-    height: 100vh;
+    height: 100%;
 }
 
 .divImgArbolFull img{
@@ -365,7 +365,7 @@ div.hrFull{
 /*Esquema pantalla*/
 
 .EsquemaContenedor {
-	height: 32vh;
+	height: 32%;
 	border-bottom: 2px solid white;
 }
 .EsquemaContenedor img{
@@ -482,7 +482,7 @@ div.hrFull{
 .fondoObjetivo {
     background-size: cover;
 		width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-image: url('./../img/practica/objetivoPractica.png');
 		text-align: center;
@@ -494,7 +494,7 @@ div.hrFull{
 .fondoPractica{
     background-size: cover;
 		width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-image: url('./../img/practica/practicaPortada.png');
 		text-align: center;
@@ -507,7 +507,7 @@ div.hrFull{
 .fondoMaterial{
     background-size: cover;
 		width: 100%;
-    height: 100vh;
+    height: 100%;
     background-repeat: no-repeat;
     background-image: url('./../img/practica/materialNecesario.png');
 		text-align: center;
