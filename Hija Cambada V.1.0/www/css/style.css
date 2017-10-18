@@ -90,7 +90,11 @@ img {
 		position: absolute;
 		right: 20px;
 		bottom: 0px;
+<<<<<<< HEAD
 		margin-bottom: 20px
+=======
+		margin-bottom: 40px
+>>>>>>> adb3d1c304cb9e882c547cb34c9a88214be5397d
 		}
 
 		.siguiente-color-rev{
@@ -98,7 +102,11 @@ img {
 		position: absolute;
 		left: 20px;
 		bottom: 0px;
+<<<<<<< HEAD
 		margin-bottom: 20px
+=======
+		margin-bottom: 40px
+>>>>>>> adb3d1c304cb9e882c547cb34c9a88214be5397d
 		}
 
 		.siguiente-color-practicaRev{
@@ -372,7 +380,12 @@ div.hrFull{
 .EsquemaContenedor {
 	height: 33%;
 	border-bottom: 2px solid white;
+<<<<<<< HEAD
 	background-color: #62ac9b;
+=======
+	background-color: #62ac9b
+
+>>>>>>> adb3d1c304cb9e882c547cb34c9a88214be5397d
 }
 .EsquemaContenedor img{
 	width: 100%;
@@ -491,7 +504,7 @@ div.hrFull{
 		width: 100%;
     height: 100%;
     background-repeat: no-repeat;
-    background-image: url('./../img/practica/objetivoPractica.png');
+    background-image: url('');
 		text-align: center;
 		margin: 0 auto;
 		position: absolute;
@@ -514,12 +527,8 @@ div.hrFull{
 .fondoMaterial{
     background-size: cover;
 		width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
-    background-image: url('./../img/practica/materialNecesario.png');
 		text-align: center;
 		margin: 0 auto;
-		position: absolute;
 		top: 0px;
 }
 
